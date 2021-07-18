@@ -1,4 +1,71 @@
 body {
   height: 100%;
-  background-color: darkcyan;
+  background-color: FFFFFF;
+  
 }
+
+.container {
+  margin-bottom: 2%;
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Oswald', sans-serif;
+}
+
+.NASA {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+
+}
+
+.bottom-container{
+  display: flex;
+  justify-content: center;
+}
+.flexbox-item {
+  width: 270px;
+  height: 324px;
+  margin: 10px;
+  background-color: #E6E6E6;
+  display: flex;
+  flex-direction: row;
+  font-size: large;
+  padding-top: 10px;
+  
+} 
+
+div.flexbox-item-1{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Oswald', sans-serif;
+}
+
+div.flexbox-item-2{
+  display: flex;
+  flex-direction: column; 
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+div.flexbox-item-3{
+  display: flex;
+  flex-direction: column;
+ justify-content: stretch;
+ font-family: 'Oswald', sans-serif;
+}
+
+
+p{
+  font-size: 12px;
+  
+}
+ 
+
+
+
+
+
